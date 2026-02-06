@@ -1,0 +1,105 @@
+[
+  {
+    "scenario_id": "scenario_a",
+    "name": "Simple Retail Bank - Basic CET1",
+    "description": "A straightforward retail bank with only CET1 components and no deductions. Tests basic CET1 instrument and retained earnings mapping.",
+    "query": "Calculate CET1 capital for a simple retail bank with ordinary share capital, share premium, and retained earnings. No deductions apply.",
+    "scenario_data": {
+      "bank_name": "Simple Retail Bank plc",
+      "reporting_date": "2025-12-31",
+      "currency": "GBP",
+      "share_capital_nominal": 30000,
+      "share_premium": 20000,
+      "retained_earnings": 45000,
+      "accumulated_oci": 2000,
+      "other_reserves": 3000,
+      "goodwill": 0,
+      "other_intangible_assets": 0,
+      "deferred_tax_assets_future_profit": 0,
+      "at1_instruments": 0,
+      "t2_instruments": 0,
+      "t2_subordinated_loans": 0
+    },
+    "expected_ranges": {
+      "r0010_c0010": { "min": 99000, "max": 101000, "expected": 100000 },
+      "r0020_c0010": { "min": 99000, "max": 101000, "expected": 100000 },
+      "r0030_c0010": { "min": 99000, "max": 101000, "expected": 100000 },
+      "r0040_c0010": { "min": 49000, "max": 51000, "expected": 50000 },
+      "r0100_c0010": { "min": 44000, "max": 46000, "expected": 45000 },
+      "r0300_c0010": { "min": 0, "max": 0, "expected": 0 },
+      "r0500_c0010": { "min": 0, "max": 0, "expected": 0 }
+    },
+    "notes": "Share capital (30,000) + share premium (20,000) = 50,000 for r0040. CET1 = 50,000 + 45,000 + 2,000 + 3,000 = 100,000. No AT1 or T2, so Own Funds = 100,000."
+  },
+  {
+    "scenario_id": "scenario_b",
+    "name": "Bank with CET1 Deductions",
+    "description": "A retail bank with CET1 components and material deductions for goodwill, intangible assets, and deferred tax assets. Tests deduction logic.",
+    "query": "Calculate CET1 capital for a bank that has goodwill from acquisitions, software intangible assets, and deferred tax assets dependent on future profitability that must be deducted.",
+    "scenario_data": {
+      "bank_name": "Midlands Banking Group plc",
+      "reporting_date": "2025-12-31",
+      "currency": "GBP",
+      "share_capital_nominal": 40000,
+      "share_premium": 15000,
+      "retained_earnings": 35000,
+      "accumulated_oci": -1500,
+      "other_reserves": 6000,
+      "goodwill": 8000,
+      "other_intangible_assets": 3000,
+      "deferred_tax_assets_future_profit": 2000,
+      "at1_instruments": 0,
+      "t2_instruments": 0,
+      "t2_subordinated_loans": 0
+    },
+    "expected_ranges": {
+      "r0010_c0010": { "min": 81000, "max": 82000, "expected": 81500 },
+      "r0020_c0010": { "min": 81000, "max": 82000, "expected": 81500 },
+      "r0030_c0010": { "min": 81000, "max": 82000, "expected": 81500 },
+      "r0040_c0010": { "min": 54000, "max": 56000, "expected": 55000 },
+      "r0100_c0010": { "min": 34000, "max": 36000, "expected": 35000 },
+      "r0200_c0010": { "min": 7500, "max": 8500, "expected": 8000 },
+      "r0210_c0010": { "min": 2500, "max": 3500, "expected": 3000 },
+      "r0220_c0010": { "min": 1500, "max": 2500, "expected": 2000 },
+      "r0300_c0010": { "min": 0, "max": 0, "expected": 0 },
+      "r0500_c0010": { "min": 0, "max": 0, "expected": 0 }
+    },
+    "notes": "CET1 instruments = 40,000 + 15,000 = 55,000. Gross CET1 = 55,000 + 35,000 + (-1,500) + 6,000 = 94,500. Deductions = 8,000 + 3,000 + 2,000 = 13,000. Net CET1 = 81,500. No AT1/T2."
+  },
+  {
+    "scenario_id": "scenario_c",
+    "name": "Full Capital Stack",
+    "description": "A bank with the complete capital hierarchy: CET1 with deductions, AT1 instruments, and T2 subordinated debt. Tests the full Own Funds calculation.",
+    "query": "Calculate the full Own Funds for a bank with CET1 capital including deductions for intangibles, plus Additional Tier 1 contingent convertible bonds and Tier 2 subordinated debt instruments.",
+    "scenario_data": {
+      "bank_name": "National Commercial Bank plc",
+      "reporting_date": "2025-12-31",
+      "currency": "GBP",
+      "share_capital_nominal": 60000,
+      "share_premium": 25000,
+      "retained_earnings": 50000,
+      "accumulated_oci": 3500,
+      "other_reserves": 8000,
+      "goodwill": 5000,
+      "other_intangible_assets": 2000,
+      "deferred_tax_assets_future_profit": 1500,
+      "at1_instruments": 12000,
+      "t2_instruments": 8000,
+      "t2_subordinated_loans": 10000
+    },
+    "expected_ranges": {
+      "r0010_c0010": { "min": 155000, "max": 158500, "expected": 158000 },
+      "r0020_c0010": { "min": 148000, "max": 152000, "expected": 150000 },
+      "r0030_c0010": { "min": 137000, "max": 139000, "expected": 138000 },
+      "r0040_c0010": { "min": 84000, "max": 86000, "expected": 85000 },
+      "r0100_c0010": { "min": 49000, "max": 51000, "expected": 50000 },
+      "r0200_c0010": { "min": 4500, "max": 5500, "expected": 5000 },
+      "r0210_c0010": { "min": 1500, "max": 2500, "expected": 2000 },
+      "r0220_c0010": { "min": 1000, "max": 2000, "expected": 1500 },
+      "r0300_c0010": { "min": 11000, "max": 13000, "expected": 12000 },
+      "r0500_c0010": { "min": 7000, "max": 19000, "expected": 18000 },
+      "r0510_c0010": { "min": 17000, "max": 19000, "expected": 18000 }
+    },
+    "notes": "CET1 instruments = 60,000 + 25,000 = 85,000. Gross CET1 = 85,000 + 50,000 + 3,500 + 8,000 = 146,500. Deductions = 5,000 + 2,000 + 1,500 = 8,500. Net CET1 = 138,000. T1 = 138,000 + 12,000 = 150,000. T2 = 8,000 + 10,000 = 18,000. Own Funds = 150,000 + 18,000 = 168,000."
+  }
+]

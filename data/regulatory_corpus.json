@@ -1,0 +1,414 @@
+[
+  {
+    "chunk_id": "CRR_Art26_1",
+    "text": "Common Equity Tier 1 (CET1) items consist of the following: (a) capital instruments, provided that the conditions laid down in Article 28 or, where applicable, Article 29 are met; (b) share premium accounts related to the instruments referred to in point (a); (c) retained earnings; (d) accumulated other comprehensive income; (e) other reserves; (f) funds for general banking risk. The items referred to in points (a) to (f) shall be recognised as CET1 items only where they are available to the institution for unrestricted and immediate use to cover risks or losses as soon as these occur.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 26(1)",
+    "template_id": "C01.00",
+    "keywords": [
+      "CET1",
+      "common equity tier 1",
+      "capital instruments",
+      "retained earnings",
+      "other reserves",
+      "share premium",
+      "AOCI"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art28_1",
+    "text": "Capital instruments qualify as CET1 instruments only where all the following conditions are met: (a) the instruments are issued directly by the institution with the prior approval of the owners of the institution; (b) the instruments are paid up and their purchase is not funded directly or indirectly by the institution; (c) the instruments meet all the following conditions as regards their classification: they qualify as capital within the meaning of Article 22 of Directive 86/635/EEC, they are classified as equity within the meaning of the applicable accounting framework, they are classified as equity capital for the purposes of determining balance sheet insolvency; (d) the instruments are clearly and separately disclosed on the balance sheet in the financial statements of the institution.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 28(1)(a)-(d)",
+    "template_id": "C01.00",
+    "keywords": [
+      "CET1 instruments",
+      "qualifying conditions",
+      "paid up",
+      "equity",
+      "balance sheet"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art28_2",
+    "text": "Further conditions for CET1 instruments: (e) the instruments are perpetual; (f) the principal amount of the instruments may not be reduced or repaid except in either of the following cases: (i) the liquidation of the institution, (ii) discretionary repurchases of the instruments or other discretionary means of reducing capital which are subject to prior supervisory approval; (g) the provisions governing the instruments do not indicate explicitly or implicitly that the principal amount of the instruments would or might be reduced or repaid; (h) the instruments meet specific conditions regarding distributions including that they provide for no preferential distribution and that distributions can only be paid out of distributable items.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 28(1)(e)-(h)",
+    "template_id": "C01.00",
+    "keywords": [
+      "CET1 instruments",
+      "perpetual",
+      "distributions",
+      "no preferential",
+      "loss absorption"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art26_ret_earn",
+    "text": "Retained earnings represent accumulated profits or losses from prior periods that have not been distributed to shareholders. For the purposes of CET1 capital, retained earnings include interim profits or year-end profits only where those profits have been verified by persons independent of the institution that are responsible for the auditing of the accounts of that institution and where the institution has demonstrated to the satisfaction of the competent authority that any foreseeable charge or dividend has been deducted from the amount of those profits. Retained earnings are reported in row r0100, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 26(2)",
+    "template_id": "C01.00",
+    "keywords": [
+      "retained earnings",
+      "interim profits",
+      "audited",
+      "distributable",
+      "r0100"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art26_AOCI",
+    "text": "Accumulated Other Comprehensive Income (AOCI) includes unrealised gains and losses recognised directly in equity, such as gains and losses on available-for-sale financial assets, effective portions of cash flow hedges, foreign currency translation adjustments, and revaluation reserves. These items are included in CET1 capital under Article 26(1)(d) of the CRR. AOCI is reported in row r0110, column c0010 of template C 01.00. Institutions shall apply the treatment of unrealised gains and losses measured at fair value as set out in Part Two, Title I, Chapter 4 of the CRR.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 26(1)(d)",
+    "template_id": "C01.00",
+    "keywords": [
+      "AOCI",
+      "accumulated other comprehensive income",
+      "unrealised gains",
+      "fair value",
+      "r0110"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art26_other_reserves",
+    "text": "Other reserves comprise all reserves of the institution other than those included in accumulated other comprehensive income. Other reserves include general reserves and other items that qualify as CET1 capital under the applicable accounting standards. They may include share premium not directly related to CET1 instruments, general banking reserves, and other eligible reserves. Other reserves are reported in row r0130, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 26(1)(e)",
+    "template_id": "C01.00",
+    "keywords": [
+      "other reserves",
+      "general reserves",
+      "banking reserves",
+      "r0130"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art36_deductions",
+    "text": "Institutions shall deduct the following from CET1 items: (a) losses for the current financial year; (b) intangible assets including goodwill; (c) deferred tax assets that rely on future profitability; (d) for institutions calculating risk-weighted exposure amounts using the Internal Ratings Based Approach, any negative amounts resulting from the calculation of expected loss amounts; (e) defined benefit pension fund assets; (f) direct, indirect and synthetic holdings by an institution of own CET1 instruments; (g) significant and non-significant investments in financial sector entities. These deductions ensure that CET1 capital reflects only genuine loss-absorbing capacity.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 36(1)",
+    "template_id": "C01.00",
+    "keywords": [
+      "CET1 deductions",
+      "intangible assets",
+      "goodwill",
+      "deferred tax",
+      "pension",
+      "own instruments"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art37_goodwill",
+    "text": "Goodwill deduction from CET1: The amount of goodwill to be deducted from CET1 items shall include any goodwill included in the valuation of significant investments of the institution. The amount shall be reduced by the amount of associated deferred tax liabilities that would be extinguished if the goodwill became impaired or was derecognised under the applicable accounting framework. Goodwill is reported as a deduction in the CET1 section of template C 01.00, row r0200, column c0010.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 37",
+    "template_id": "C01.00",
+    "keywords": [
+      "goodwill",
+      "deduction",
+      "CET1",
+      "significant investments",
+      "deferred tax liability",
+      "r0200"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art37_intangibles",
+    "text": "Intangible assets deduction from CET1: The amount of other intangible assets to be deducted from CET1 items shall be reduced by the amount of associated deferred tax liabilities that would be extinguished if the intangible assets became impaired or were derecognised under the applicable accounting framework. Intangible assets include computer software, patents, licences, trademarks, and similar rights and assets that have been acquired, developed, or recognised under an applicable accounting standard. Other intangible assets (excluding goodwill) are reported in row r0210, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 37(a)",
+    "template_id": "C01.00",
+    "keywords": [
+      "intangible assets",
+      "software",
+      "patents",
+      "deduction",
+      "CET1",
+      "r0210"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art38_DTA",
+    "text": "Deferred tax assets that rely on future profitability shall be deducted from CET1 items. Deferred tax assets that do not rely on future profitability are limited to deferred tax assets arising from temporary differences and shall be reduced by associated deferred tax liabilities of the institution. Only deferred tax assets that rely on future profitability and do not arise from temporary differences must be fully deducted. Deferred tax assets arising from temporary differences are subject to a threshold-based treatment. DTA deductions are reported in row r0220, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 38",
+    "template_id": "C01.00",
+    "keywords": [
+      "deferred tax assets",
+      "DTA",
+      "future profitability",
+      "temporary differences",
+      "deduction",
+      "r0220"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art51_AT1",
+    "text": "Additional Tier 1 (AT1) items consist of: (a) capital instruments, where the conditions laid down in Article 52(1) are met; (b) the share premium accounts related to the instruments referred to in point (a). AT1 instruments issued by a subsidiary and included in consolidated AT1 capital are subject to specific conditions. AT1 instruments must be subordinated to Tier 2 instruments in the event of insolvency of the institution. Total AT1 capital is reported in row r0300, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 51",
+    "template_id": "C01.00",
+    "keywords": [
+      "AT1",
+      "additional tier 1",
+      "capital instruments",
+      "subordinated",
+      "r0300"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art52_AT1_conditions",
+    "text": "Capital instruments qualify as AT1 instruments only where the following conditions are met: (a) the instruments are issued and paid up; (b) the instruments are not purchased by the institution or its subsidiaries; (c) the purchase is not funded by the institution; (d) the instruments are perpetual and provisions governing them include no incentive for the institution to redeem them; (e) provisions governing the instruments allow for the cancellation of distributions at any time on an unlimited basis; (f) the instruments are not covered by any arrangement that enhances the seniority of the claim; (g) the instruments may be called, redeemed or repurchased only after a minimum period of 5 years and subject to prior supervisory permission.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 52(1)",
+    "template_id": "C01.00",
+    "keywords": [
+      "AT1 conditions",
+      "perpetual",
+      "callable",
+      "loss absorption",
+      "cancellation of distributions"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art56_AT1_deductions",
+    "text": "Institutions shall deduct from AT1 items: (a) direct, indirect and synthetic holdings by an institution of own AT1 instruments; (b) direct, indirect and synthetic holdings of the AT1 instruments of financial sector entities where those entities have reciprocal cross holdings with the institution; (c) the applicable amount of direct, indirect and synthetic holdings of the AT1 instruments of financial sector entities where the institution does not have a significant investment; (d) direct, indirect and synthetic holdings by the institution of the AT1 instruments of financial sector entities where the institution has a significant investment, excluding underwriting positions held for five or fewer working days.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 56",
+    "template_id": "C01.00",
+    "keywords": [
+      "AT1 deductions",
+      "own instruments",
+      "cross holdings",
+      "significant investment"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art62_T2",
+    "text": "Tier 2 (T2) items consist of the following: (a) capital instruments and subordinated loans where the conditions laid down in Article 63 are met; (b) the share premium accounts related to instruments referred to in point (a); (c) for institutions calculating risk-weighted exposure amounts in accordance with the Standardised Approach, general credit risk adjustments, gross of tax effects, of up to 1.25% of risk-weighted exposure amounts; (d) for institutions calculating risk-weighted exposure amounts in accordance with the IRB Approach, positive amounts of the IRB excess. Total T2 capital is reported in row r0500, column c0010 of template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 62",
+    "template_id": "C01.00",
+    "keywords": [
+      "T2",
+      "tier 2",
+      "subordinated loans",
+      "general credit risk adjustments",
+      "r0500"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art63_T2_conditions",
+    "text": "Capital instruments or subordinated loans qualify as T2 instruments only where: (a) the instruments are issued or the subordinated loans are raised, as applicable, and paid up; (b) the instruments are not purchased by the institution; (c) the instruments or loans have an original maturity of at least 5 years and provisions governing them include no incentive for the institution to redeem them before maturity; (d) provisions allow for early redemption only after 5 years subject to supervisory permission; (e) the instruments or loans are not covered by any arrangement that otherwise enhances the seniority of the claim.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 63",
+    "template_id": "C01.00",
+    "keywords": [
+      "T2 conditions",
+      "maturity 5 years",
+      "subordinated",
+      "no incentive to redeem"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art72_own_funds_total",
+    "text": "The own funds of an institution consist of the sum of its Tier 1 capital and its Tier 2 capital. Tier 1 capital of an institution consists of the sum of the CET1 capital and AT1 capital of that institution. This establishes the fundamental hierarchy: Own Funds = Tier 1 + Tier 2, where Tier 1 = CET1 + AT1. In template C 01.00, Own Funds are reported in row r0010, Tier 1 in row r0020, CET1 in row r0030, AT1 in row r0300, and T2 in row r0500, all in column c0010.",
+    "source": "CRR_575_2013",
+    "section_ref": "Articles 72, 25, 50",
+    "template_id": "C01.00",
+    "keywords": [
+      "own funds",
+      "total capital",
+      "tier 1",
+      "tier 2",
+      "hierarchy",
+      "r0010",
+      "r0020"
+    ]
+  },
+  {
+    "chunk_id": "C0100_instr_r0040",
+    "text": "COREP C 01.00 Row r0040 - Capital instruments eligible as CET1 Capital: This row reports the total amount of capital instruments that qualify as CET1 capital in accordance with Articles 26(1)(a) and 28 of the CRR. This includes ordinary shares (common stock) issued by the institution and fully paid up, along with related share premium accounts under Article 26(1)(b). The amount represents the nominal value plus share premium of all outstanding CET1-qualifying instruments. This figure should be gross of any regulatory adjustments.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0040",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0040",
+      "capital instruments",
+      "CET1",
+      "ordinary shares",
+      "share premium",
+      "paid up"
+    ]
+  },
+  {
+    "chunk_id": "C0100_r0030_calc",
+    "text": "COREP C 01.00 Row r0030 - Common Equity Tier 1 (CET1) Capital: This row reports the total CET1 capital after all regulatory adjustments. It is calculated as the sum of CET1 capital items (instruments, retained earnings, AOCI, other reserves) minus all CET1 deductions (goodwill, other intangibles, DTA dependent on future profitability, own CET1 instruments held, etc.). CET1 = Capital instruments eligible as CET1 (r0040) + Retained earnings (r0100) + AOCI (r0110) + Other reserves (r0130) - Goodwill (r0200) - Other intangible assets (r0210) - DTA on future profitability (r0220) - other applicable deductions.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0030",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0030",
+      "CET1 total",
+      "calculation",
+      "regulatory adjustments",
+      "deductions"
+    ]
+  },
+  {
+    "chunk_id": "C0100_hierarchy",
+    "text": "COREP C 01.00 Template Hierarchy and Validation: The fundamental relationships within the Own Funds template C 01.00 are: (1) r0010 = r0020 + r0500, meaning Own Funds equals Tier 1 capital plus Tier 2 capital; (2) r0020 = r0030 + r0300, meaning Tier 1 capital equals CET1 capital plus AT1 capital; (3) r0030 is the net CET1 after all deductions; (4) r0300 is the net AT1 after all AT1 deductions; (5) r0500 is the net T2 after all T2 deductions. Each institutional filing must ensure these relationships hold exactly.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_validation",
+    "template_id": "C01.00",
+    "keywords": [
+      "validation",
+      "hierarchy",
+      "r0010",
+      "r0020",
+      "r0030",
+      "r0300",
+      "r0500",
+      "template rules"
+    ]
+  },
+  {
+    "chunk_id": "C0100_AT1_r0300",
+    "text": "COREP C 01.00 Row r0300 - Additional Tier 1 (AT1) Capital: This row reports the total AT1 capital after all regulatory adjustments in accordance with Article 61 of the CRR. AT1 capital consists of AT1 instruments (as defined in Article 51-52) plus related share premium, minus AT1 deductions under Article 56. AT1 instruments typically include contingent convertible bonds (CoCos), perpetual non-cumulative preference shares, and other instruments that absorb losses on a going-concern basis through conversion to equity or write-down. If an institution has no AT1 instruments, this row shall be reported as zero.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0300",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0300",
+      "AT1",
+      "additional tier 1",
+      "CoCos",
+      "preference shares",
+      "loss absorption"
+    ]
+  },
+  {
+    "chunk_id": "C0100_T2_r0500",
+    "text": "COREP C 01.00 Row r0500 - Tier 2 (T2) Capital: This row reports the total T2 capital after all regulatory adjustments in accordance with Article 71 of the CRR. T2 capital consists of T2 instruments and subordinated loans (as defined in Articles 62-63) plus related share premium, plus eligible general credit risk adjustments, minus T2 deductions under Article 66. T2 instruments are subordinated to all non-subordinated creditors and have an original maturity of at least 5 years. The carrying amount is subject to amortisation during the final 5 years to maturity.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0500",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0500",
+      "T2",
+      "tier 2",
+      "subordinated loans",
+      "amortisation",
+      "5 years maturity"
+    ]
+  },
+  {
+    "chunk_id": "C0100_T2_instruments_r0510",
+    "text": "COREP C 01.00 Row r0510 - Capital instruments and subordinated loans eligible as T2: This row reports the total carrying amount of all capital instruments and subordinated loans that qualify as T2 capital in accordance with Article 63. The amount includes the institution's own T2 instruments, T2 instruments issued by subsidiaries included in consolidation, and eligible subordinated debt. This is the gross figure before amortisation adjustment and before any T2 deductions. Subordinated loans must meet minimum maturity and loss-absorption requirements.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0510",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0510",
+      "T2 instruments",
+      "subordinated loans",
+      "eligible",
+      "carrying amount"
+    ]
+  },
+  {
+    "chunk_id": "PRA_own_funds_overview",
+    "text": "PRA Rulebook - Own Funds: UK institutions must maintain own funds calculated in accordance with the UK version of the CRR (as amended by the Capital Requirements Regulation (Amendment) (EU Exit) Regulations 2018). The PRA applies the CRR requirements with certain UK-specific modifications. The minimum capital requirements are: CET1 capital ratio of 4.5% of total risk exposure amount, Tier 1 capital ratio of 6%, and total capital ratio of 8%. In addition, the PRA sets institution-specific Pillar 2A requirements and buffer requirements (capital conservation buffer, countercyclical buffer, systemic buffers).",
+    "source": "PRA_Rulebook",
+    "section_ref": "Own_Funds_Chapter",
+    "template_id": "C01.00",
+    "keywords": [
+      "PRA",
+      "UK",
+      "minimum requirements",
+      "CET1 ratio",
+      "4.5%",
+      "Pillar 2A",
+      "buffers"
+    ]
+  },
+  {
+    "chunk_id": "PRA_reporting_requirements",
+    "text": "Under PRA reporting requirements, UK-authorised banks and building societies must submit COREP returns on a quarterly basis (solo and consolidated where applicable). Template C 01.00 (Own Funds) is part of the core COREP framework. Amounts should be reported in thousands of the reporting currency (GBP for UK firms). Positive amounts represent capital items; negative amounts represent deductions. All figures should be reported as at the reference date (quarter-end). The PRA expects firms to have robust processes for ensuring the accuracy and completeness of regulatory returns.",
+    "source": "PRA_Rulebook",
+    "section_ref": "Reporting_Requirements",
+    "template_id": "C01.00",
+    "keywords": [
+      "PRA reporting",
+      "quarterly",
+      "COREP",
+      "thousands GBP",
+      "reference date",
+      "accuracy"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art28_share_premium",
+    "text": "Share premium accounts related to CET1 instruments: Under Article 26(1)(b), share premium accounts related to CET1 capital instruments form part of the CET1 capital. Share premium represents the excess amount received by the institution over the par (nominal) value of shares upon issuance. For the purposes of template C 01.00, share premium related to CET1 instruments is included together with the instruments themselves in row r0040. The combined total of CET1 instruments and related share premium provides the gross CET1 instrument amount before retained earnings, reserves, and deductions.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 26(1)(b)",
+    "template_id": "C01.00",
+    "keywords": [
+      "share premium",
+      "CET1",
+      "par value",
+      "nominal value",
+      "r0040",
+      "issuance"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art47_CET1_net",
+    "text": "The total CET1 capital is the amount remaining after all deductions have been applied to CET1 items. The deductions applied to CET1 include: goodwill and other intangible assets (net of related deferred tax liabilities), deferred tax assets dependent on future profitability (not arising from temporary differences), defined benefit pension fund assets, direct/indirect/synthetic holdings of own CET1 instruments, significant investments in CET1 of financial sector entities exceeding the 10% threshold, and the amount exceeding the combined 17.65% threshold for DTA from temporary differences and significant investments combined.",
+    "source": "CRR_575_2013",
+    "section_ref": "Articles 36-47",
+    "template_id": "C01.00",
+    "keywords": [
+      "CET1 net",
+      "total deductions",
+      "threshold",
+      "17.65%",
+      "10% threshold",
+      "combined limit"
+    ]
+  },
+  {
+    "chunk_id": "C0100_instrument_types",
+    "text": "COREP C 01.00 Rows r0050-r0070 - Instrument type breakdown: Within the total CET1 instruments (r0040), institutions shall provide a breakdown by instrument type. Row r0050 reports Instrument type 1 (typically ordinary shares/common stock), row r0060 reports Instrument type 2, and row r0070 reports Instrument type 3. The classification follows the EBA list of CET1 instruments published for each Member State. For most UK institutions, the primary CET1 instrument type is ordinary shares, which would be reported in r0050. These sub-rows must sum to r0040.",
+    "source": "EBA_ITS_C0100_Instructions",
+    "section_ref": "C01.00_r0050_r0070",
+    "template_id": "C01.00",
+    "keywords": [
+      "r0050",
+      "r0060",
+      "r0070",
+      "instrument types",
+      "ordinary shares",
+      "breakdown"
+    ]
+  },
+  {
+    "chunk_id": "CRR_Art92_requirements",
+    "text": "Institutions shall at all times satisfy the following own funds requirements: (a) a CET1 capital ratio of 4.5%, calculated as CET1 capital divided by total risk exposure amount; (b) a Tier 1 capital ratio of 6%, calculated as Tier 1 capital divided by total risk exposure amount; (c) a total capital ratio of 8%, calculated as own funds divided by total risk exposure amount. These are the Pillar 1 minimum requirements. Additional requirements may apply under Pillar 2 (institution-specific) and the combined buffer requirement. The own funds amounts used in these calculations correspond to the values reported in template C 01.00.",
+    "source": "CRR_575_2013",
+    "section_ref": "Article 92(1)",
+    "template_id": "C01.00",
+    "keywords": [
+      "capital ratios",
+      "4.5%",
+      "6%",
+      "8%",
+      "CET1 ratio",
+      "Tier 1 ratio",
+      "total capital ratio",
+      "Pillar 1"
+    ]
+  }
+]

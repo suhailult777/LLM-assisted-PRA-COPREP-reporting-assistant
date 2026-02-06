@@ -1,0 +1,239 @@
+{
+  "template_id": "C01.00",
+  "template_name": "Own Funds",
+  "reporting_framework": "COREP",
+  "regulation": "CRR 575/2013 (as amended)",
+  "currency_unit": "thousands_GBP",
+  "fields": [
+    {
+      "row_id": "r0010",
+      "col_id": "c0010",
+      "field_id": "r0010_c0010",
+      "name": "OWN FUNDS",
+      "description": "Total own funds of the institution, equal to Tier 1 capital plus Tier 2 capital",
+      "type": "number",
+      "crr_reference": "Article 72",
+      "formula": "r0020 + r0500",
+      "sign": "positive",
+      "level": 0
+    },
+    {
+      "row_id": "r0020",
+      "col_id": "c0010",
+      "field_id": "r0020_c0010",
+      "name": "TIER 1 CAPITAL",
+      "description": "Total Tier 1 capital, equal to CET1 capital plus AT1 capital",
+      "type": "number",
+      "crr_reference": "Article 25",
+      "formula": "r0030 + r0300",
+      "sign": "positive",
+      "level": 1
+    },
+    {
+      "row_id": "r0030",
+      "col_id": "c0010",
+      "field_id": "r0030_c0010",
+      "name": "COMMON EQUITY TIER 1 (CET1) CAPITAL",
+      "description": "CET1 capital after all regulatory adjustments/deductions",
+      "type": "number",
+      "crr_reference": "Article 50",
+      "formula": "r0040 + r0100 + r0110 + r0130 - r0200 - r0210 - r0220",
+      "sign": "positive",
+      "level": 2
+    },
+    {
+      "row_id": "r0040",
+      "col_id": "c0010",
+      "field_id": "r0040_c0010",
+      "name": "Capital instruments eligible as CET1 Capital",
+      "description": "Total amount of CET1-qualifying instruments plus related share premium (Articles 26(1)(a)(b), 28)",
+      "type": "number",
+      "crr_reference": "Articles 26, 28",
+      "formula": "r0050 + r0060 + r0070",
+      "sign": "positive",
+      "level": 3
+    },
+    {
+      "row_id": "r0050",
+      "col_id": "c0010",
+      "field_id": "r0050_c0010",
+      "name": "Of which: Instrument type 1",
+      "description": "CET1 instruments - type 1 (typically ordinary shares/common stock)",
+      "type": "number",
+      "crr_reference": "Article 28",
+      "formula": null,
+      "sign": "positive",
+      "level": 4
+    },
+    {
+      "row_id": "r0060",
+      "col_id": "c0010",
+      "field_id": "r0060_c0010",
+      "name": "Of which: Instrument type 2",
+      "description": "CET1 instruments - type 2",
+      "type": "number",
+      "crr_reference": "Article 28",
+      "formula": null,
+      "sign": "positive",
+      "level": 4
+    },
+    {
+      "row_id": "r0070",
+      "col_id": "c0010",
+      "field_id": "r0070_c0010",
+      "name": "Of which: Instrument type 3",
+      "description": "CET1 instruments - type 3",
+      "type": "number",
+      "crr_reference": "Article 28",
+      "formula": null,
+      "sign": "positive",
+      "level": 4
+    },
+    {
+      "row_id": "r0100",
+      "col_id": "c0010",
+      "field_id": "r0100_c0010",
+      "name": "Retained earnings",
+      "description": "Accumulated retained earnings including verified interim/year-end profits net of foreseeable dividends",
+      "type": "number",
+      "crr_reference": "Article 26(1)(c), 26(2)",
+      "formula": null,
+      "sign": "positive",
+      "level": 3
+    },
+    {
+      "row_id": "r0110",
+      "col_id": "c0010",
+      "field_id": "r0110_c0010",
+      "name": "Accumulated other comprehensive income",
+      "description": "AOCI: unrealised gains/losses, revaluation reserves, FX translation adjustments",
+      "type": "number",
+      "crr_reference": "Article 26(1)(d)",
+      "formula": null,
+      "sign": "any",
+      "level": 3
+    },
+    {
+      "row_id": "r0130",
+      "col_id": "c0010",
+      "field_id": "r0130_c0010",
+      "name": "Other reserves",
+      "description": "General and other eligible reserves not included in AOCI",
+      "type": "number",
+      "crr_reference": "Article 26(1)(e)",
+      "formula": null,
+      "sign": "positive",
+      "level": 3
+    },
+    {
+      "row_id": "r0200",
+      "col_id": "c0010",
+      "field_id": "r0200_c0010",
+      "name": "Goodwill",
+      "description": "Goodwill deducted from CET1 (net of associated deferred tax liabilities)",
+      "type": "number",
+      "crr_reference": "Articles 36(1)(b), 37",
+      "formula": null,
+      "sign": "deduction",
+      "level": 3
+    },
+    {
+      "row_id": "r0210",
+      "col_id": "c0010",
+      "field_id": "r0210_c0010",
+      "name": "Other intangible assets",
+      "description": "Other intangible assets (excl. goodwill) deducted from CET1 (net of associated DTL)",
+      "type": "number",
+      "crr_reference": "Articles 36(1)(b), 37(a)",
+      "formula": null,
+      "sign": "deduction",
+      "level": 3
+    },
+    {
+      "row_id": "r0220",
+      "col_id": "c0010",
+      "field_id": "r0220_c0010",
+      "name": "Deferred tax assets dependent on future profitability",
+      "description": "DTA that rely on future profitability and do not arise from temporary differences, deducted from CET1",
+      "type": "number",
+      "crr_reference": "Articles 36(1)(c), 38",
+      "formula": null,
+      "sign": "deduction",
+      "level": 3
+    },
+    {
+      "row_id": "r0300",
+      "col_id": "c0010",
+      "field_id": "r0300_c0010",
+      "name": "ADDITIONAL TIER 1 (AT1) CAPITAL",
+      "description": "Total AT1 capital after regulatory adjustments (AT1 instruments minus AT1 deductions)",
+      "type": "number",
+      "crr_reference": "Articles 51, 61",
+      "formula": null,
+      "sign": "positive",
+      "level": 2
+    },
+    {
+      "row_id": "r0500",
+      "col_id": "c0010",
+      "field_id": "r0500_c0010",
+      "name": "TIER 2 (T2) CAPITAL",
+      "description": "Total T2 capital after regulatory adjustments",
+      "type": "number",
+      "crr_reference": "Articles 62, 71",
+      "formula": null,
+      "sign": "positive",
+      "level": 2
+    },
+    {
+      "row_id": "r0510",
+      "col_id": "c0010",
+      "field_id": "r0510_c0010",
+      "name": "Capital instruments and subordinated loans eligible as T2",
+      "description": "Gross amount of T2-qualifying instruments and subordinated loans before amortisation and deductions",
+      "type": "number",
+      "crr_reference": "Articles 62, 63",
+      "formula": null,
+      "sign": "positive",
+      "level": 3
+    }
+  ],
+  "validation_rules": [
+    {
+      "rule_id": "V001",
+      "description": "Own Funds = Tier 1 + Tier 2",
+      "expression": "r0010 == r0020 + r0500",
+      "severity": "error"
+    },
+    {
+      "rule_id": "V002",
+      "description": "Tier 1 = CET1 + AT1",
+      "expression": "r0020 == r0030 + r0300",
+      "severity": "error"
+    },
+    {
+      "rule_id": "V003",
+      "description": "CET1 = Instruments + Retained Earnings + AOCI + Other Reserves - Goodwill - Intangibles - DTA",
+      "expression": "r0030 == r0040 + r0100 + r0110 + r0130 - r0200 - r0210 - r0220",
+      "severity": "error"
+    },
+    {
+      "rule_id": "V004",
+      "description": "CET1 instruments breakdown must sum to total",
+      "expression": "r0040 == r0050 + r0060 + r0070",
+      "severity": "error"
+    },
+    {
+      "rule_id": "V005",
+      "description": "Own Funds must be non-negative",
+      "expression": "r0010 >= 0",
+      "severity": "warning"
+    },
+    {
+      "rule_id": "V006",
+      "description": "CET1 must be non-negative",
+      "expression": "r0030 >= 0",
+      "severity": "warning"
+    }
+  ]
+}

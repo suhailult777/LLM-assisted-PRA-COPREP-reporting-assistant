@@ -1,0 +1,54 @@
+# Python environment
+venv/
+env/
+ENV/
+.venv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# API keys & secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+*.streamlit.logger
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs & Exports
+outputs/
+*.xlsx
+*.xls
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+desktop.ini
+
+# Embeddings cache (optional - comment out to version control)
+data/embeddings_cache.npy
+data/embeddings_ids.json
